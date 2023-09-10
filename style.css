@@ -1,0 +1,23 @@
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 80px;
+    width: 400px;
+}
+
+.button{
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(104, 101, 98);
+}
+.output{
+    border: 1px solid #000;
+    font-size: 20px;
+    font-weight: bolder;
+    grid-column: 1/5;
+}
+
+.orange{
+    background-color: rgb(255 165, 0);
+}
